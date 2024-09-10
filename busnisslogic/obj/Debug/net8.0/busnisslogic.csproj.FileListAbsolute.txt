@@ -1,0 +1,17 @@
+E:\CapCut\WebApplication1\busnisslogic\bin\Debug\net8.0\busnisslogic.deps.json
+E:\CapCut\WebApplication1\busnisslogic\bin\Debug\net8.0\busnisslogic.runtimeconfig.json
+E:\CapCut\WebApplication1\busnisslogic\bin\Debug\net8.0\busnisslogic.dll
+E:\CapCut\WebApplication1\busnisslogic\bin\Debug\net8.0\busnisslogic.pdb
+E:\CapCut\WebApplication1\busnisslogic\bin\Debug\net8.0\domain_and_repo.dll
+E:\CapCut\WebApplication1\busnisslogic\bin\Debug\net8.0\domain_and_repo.pdb
+E:\CapCut\WebApplication1\busnisslogic\obj\Debug\net8.0\busnisslogic.csproj.AssemblyReference.cache
+E:\CapCut\WebApplication1\busnisslogic\obj\Debug\net8.0\busnisslogic.GeneratedMSBuildEditorConfig.editorconfig
+E:\CapCut\WebApplication1\busnisslogic\obj\Debug\net8.0\busnisslogic.AssemblyInfoInputs.cache
+E:\CapCut\WebApplication1\busnisslogic\obj\Debug\net8.0\busnisslogic.AssemblyInfo.cs
+E:\CapCut\WebApplication1\busnisslogic\obj\Debug\net8.0\busnisslogic.csproj.CoreCompileInputs.cache
+E:\CapCut\WebApplication1\busnisslogic\obj\Debug\net8.0\busnissl.5088B218.Up2Date
+E:\CapCut\WebApplication1\busnisslogic\obj\Debug\net8.0\busnisslogic.dll
+E:\CapCut\WebApplication1\busnisslogic\obj\Debug\net8.0\refint\busnisslogic.dll
+E:\CapCut\WebApplication1\busnisslogic\obj\Debug\net8.0\busnisslogic.pdb
+E:\CapCut\WebApplication1\busnisslogic\obj\Debug\net8.0\busnisslogic.genruntimeconfig.cache
+E:\CapCut\WebApplication1\busnisslogic\obj\Debug\net8.0\ref\busnisslogic.dll
