@@ -34,7 +34,7 @@ namespace busnisslogic.content
                 .Include(e => e.Student)
                 .Include(e => e.Course)
                 .AsNoTracking()
-                .AsQueryable();
+                .AsQueryable();// بدل استخدام بدل متحمل الداتا كلها علي الميموري.AsEnumerable()  
 
             #region Search by Name
             if (!string.IsNullOrWhiteSpace(studentName))
