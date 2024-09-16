@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading.Tasks.Dataflow;
 
 namespace busnisslogic.content
 {
@@ -29,89 +30,115 @@ namespace busnisslogic.content
             int? minRank = null,
             int? maxRank = null)
         {
-            
-            var query = _context.enroll
-                .Include(e => e.Student)
-                .Include(e => e.Course)
-                .AsNoTracking()
-                .AsQueryable();// بدل استخدام بدل متحمل الداتا كلها علي الميموري.AsEnumerable()  
+            var query = from enroll in _context.enroll
+                        select enroll;
 
             #region Search by Name
             if (!string.IsNullOrWhiteSpace(studentName))
             {
-                query = query.Where(enroll => enroll.Student.Name.Contains(studentName));
+                query = from enroll in query
+                        join student in _context.Students on enroll.StudentId equals student.StudentId
+                        where student.Name.Contains(studentName)
+                        select enroll;
+
             }
+
             #endregion
 
-            #region Search by Level
+
+            #region Search by level
             if (level.HasValue)
             {
-                query = query.Where(enroll => enroll.Student.Levelid == level.Value);
+                query = from enroll in query
+                        join Student in _context.Students on enroll.StudentId equals Student.StudentId
+                        //join Level in _context.levels on Student.Levelid equals Level.LevelId
+                        where Student.Levelid == level.Value
+                        select enroll;
             }
+
             #endregion
 
-            
-            var enrolledData = query.ToList();
-
-
-            var groupedQuery = enrolledData
-            .GroupBy(e => new { e.Student.StudentId, e.Student.Name })
-            .Select(g =>
-            {
-            var studentResult = new StudentSearchResult
-            {
-                StudentName = g.Key.Name,
-                CourseGrades = g.Aggregate(
-                    new Dictionary<string, int>(),
-                    (dict, x) =>
-                    {
-                        dict[x.Course.CourseName] = x.degree.HasValue ? (int)x.degree.Value : 0;
-                        return dict;
-                    }),
-                TotalDegrees = g.Sum(x => x.degree ?? 0)
-            };
-            return studentResult;
-        })
-            .ToList();
-
-            #region Filter by Degrees
-            if (minDegrees.HasValue || maxDegrees.HasValue)
-            {
-                groupedQuery = groupedQuery
-                    .Where(result =>
-                        (!minDegrees.HasValue || result.TotalDegrees >= minDegrees.Value) &&
-                        (!maxDegrees.HasValue || result.TotalDegrees <= maxDegrees.Value)
-                    )
-                    .ToList();
-            }
-            #endregion
-
-            var rankedStudents = groupedQuery
-                .OrderByDescending(result => result.TotalDegrees)
-                .Select((result, index) => new StudentSearchResult
-                {
-                    StudentName = result.StudentName,
-                    CourseGrades = result.CourseGrades, 
-                    TotalDegrees = result.TotalDegrees,
-                    Rank = index + 1
-                })
+            var enrolledData = query
+                .Include(e => e.Student)
+                .Include(e => e.Course)
                 .ToList();
 
-            #region  Filter by Rank
-            if (minRank.HasValue || maxRank.HasValue)
+            var group = from enroll in enrolledData
+                        join Student in _context.Students on enroll.StudentId equals Student.StudentId
+                        join Course in _context.courses on enroll.CourseId equals Course.CourseId
+                        group enroll by new { Student.StudentId } into g
+                        select new StudentSearchResult
+                        {
+                            StudentName = g.FirstOrDefault().Student.Name,
+                            CourseGrades = g.Select(r => new
+                            {
+                                CourceName=r.Course.CourseName,
+                                Degree = r.degree.HasValue ? (int)r.degree.Value : 0
+                            }).ToDictionary(x => x.CourceName, x => x.Degree),
+                            TotalDegrees = g.Sum(x => x.degree.HasValue ? x.degree.Value : 0)
+                        };
+
+
+
+
+            
+            
+
+
+            var results = group.ToList();
+
+
+            //var rankquery = from result in results
+
+            //                orderby result.TotalDegrees descending
+
+            //                select new StudentSearchResult
+            //                {
+            //                    StudentName = result.StudentName,
+            //                    CourseGrades = result.CourseGrades,
+            //                    TotalDegrees = result.TotalDegrees,
+            //                    Rank = results.IndexOf(result)+1
+            //                };
+            //if (minDegrees.HasValue || maxDegrees.HasValue)
+            //{
+            //    rankquery = from result in rankquery
+
+            //                where (!minRank.HasValue || result.Rank >= minRank.Value)
+            //                       && (!maxRank.HasValue || result.Rank <= maxRank.Value)
+            //                select result;
+
+            //}
+            var rankedResults = (from result in results
+                                 orderby result.TotalDegrees descending
+                                 select result).ToList();
+
+            
+            var rankquery = (from result in rankedResults
+                             let rank = rankedResults.IndexOf(result)+1
+                             
+                             select new StudentSearchResult
+                             {
+                                 StudentName = result.StudentName,
+                                 CourseGrades = result.CourseGrades,
+                                 TotalDegrees = result.TotalDegrees,
+                                 Rank = rank
+                             }).ToList();
+
+            
+            if (minDegrees.HasValue || maxDegrees.HasValue)
             {
-                rankedStudents = rankedStudents
-                    .Where(student =>
-                        (!minRank.HasValue || student.Rank >= minRank.Value) &&
-                        (!maxRank.HasValue || student.Rank <= maxRank.Value)
-                    )
-                    .ToList();
+                rankquery = (from result in rankquery
+                             where (!minDegrees.HasValue || result.TotalDegrees >= minDegrees.Value) &&
+                                   (!maxDegrees.HasValue || result.TotalDegrees <= maxDegrees.Value)
+                             select result).ToList();
             }
-            #endregion
 
-            return rankedStudents;
+
+
+            return rankquery.ToList();
+
+
         }
-
     }
 }
 
@@ -119,79 +146,3 @@ namespace busnisslogic.content
 
 
 
-
-
-
-
-/*public List<StudentSearchResult> SearchStudents(string? studentName, int? level = null, int? minDegrees = null,
-    int? maxDegrees = null, int? minRank = null, int? maxRank = null)
-{
-    var query = from student in _context.Students
-                select student;
-
-    #region Search by Name
-    if (!string.IsNullOrWhiteSpace(studentName))
-    {
-        query = from student in query
-                where student.Name.Contains(studentName)
-                select student;
-    }
-    #endregion 
-
-    #region Search By Level
-    if (level.HasValue)
-    {
-        query = from student in query
-                where student.Levelid == level
-                select student;
-    } 
-    #endregion 
-
-
-    var query = _context.enroll
-        .Include(e => e.Student)
-
-        .Include(e => e.Course)
-        .Where(e =>
-            (string.IsNullOrEmpty(studentName) || e.Student.Name.Contains(studentName)) &&
-            (!level.HasValue || e.Student.Levelid == level.Value))
-        .GroupBy(e => new { e.Student.StudentId, e.Student.Name })
-        .AsEnumerable()  
-        .Select(g => new
-        {
-
-            StudentName = g.Key.Name,
-            CourseGrades = g.ToDictionary(x => x.Course.CourseName, x => x.degree),
-            TotalDegrees = g.Sum(x => x.degree ?? 0)
-        })
-        .Where(s =>
-            (!minDegrees.HasValue || s.TotalDegrees >= minDegrees.Value) &&
-            (!maxDegrees.HasValue || s.TotalDegrees <= maxDegrees.Value))
-        .ToList();
-
-
-    var rankedStudents = query
-        .OrderByDescending(s => s.TotalDegrees)
-        .Select((s, index) => new StudentSearchResult
-        {
-
-            StudentName = s.StudentName,
-            CourseGrades = s.CourseGrades.ToDictionary(
-                k => k.Key,
-                v => v.Value != null ? Convert.ToInt32(v.Value) : 0
-            ),
-            TotalDegrees = (int)s.TotalDegrees,
-            Rank = index + 1
-        })
-        .Where(s =>
-            (!minRank.HasValue || s.Rank >= minRank.Value) &&
-            (!maxRank.HasValue || s.Rank <= maxRank.Value))
-        .ToList();
-
-    return rankedStudents;
-
-
-    //return query.AsNoTracking().ToList();
-}
-}
-}*/

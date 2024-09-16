@@ -9,6 +9,9 @@ namespace domain_and_repo.DTO
 {
     public class Register
     {
+        public int Levelid { get; set; }
+        public string Name { get; set; }
+
         [Required]
         public string Email { get; set; }
         [Required]

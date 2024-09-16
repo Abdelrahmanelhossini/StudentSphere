@@ -351,11 +351,6 @@ namespace domain_and_repo.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<string>("Password")
-                        .IsRequired()
-                        .HasMaxLength(30)
-                        .HasColumnType("nvarchar(30)");
-
                     b.Property<decimal?>("TotalFees")
                         .HasColumnType("decimal(18,2)");
 

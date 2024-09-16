@@ -18,7 +18,7 @@ namespace domain_and_repo.models
         [Required]
         [ForeignKey(nameof(level))]
         public int Levelid { get; set; }
-        
+        [JsonIgnore]
         public Level level { get; set; }
         [Required]
         [StringLength(100)]
@@ -28,9 +28,9 @@ namespace domain_and_repo.models
         [StringLength(50)]
         public string Email { get; set; }
 
-        [Required]
-        [StringLength(30)]
-        public string Password { get; set; }
+        //[Required]
+        //[StringLength(30)]
+        //public string Password { get; set; }
 
         public decimal? TotalFees { get; set; }
 

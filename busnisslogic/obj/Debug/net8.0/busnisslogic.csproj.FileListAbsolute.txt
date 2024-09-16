@@ -15,3 +15,4 @@ E:\CapCut\WebApplication1\busnisslogic\obj\Debug\net8.0\refint\busnisslogic.dll
 E:\CapCut\WebApplication1\busnisslogic\obj\Debug\net8.0\busnisslogic.pdb
 E:\CapCut\WebApplication1\busnisslogic\obj\Debug\net8.0\busnisslogic.genruntimeconfig.cache
 E:\CapCut\WebApplication1\busnisslogic\obj\Debug\net8.0\ref\busnisslogic.dll
+E:\CapCut\WebApplication1\busnisslogic\obj\Debug\net8.0\busnisslogic.sourcelink.json

@@ -2151,7 +2151,10 @@
           "domain_and_repo": "1.0.0"
         },
         "runtime": {
-          "busnisslogic.dll": {}
+          "busnisslogic.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "domain_and_repo/1.0.0": {
@@ -2164,7 +2167,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8"
         },
         "runtime": {
-          "domain_and_repo.dll": {}
+          "domain_and_repo.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

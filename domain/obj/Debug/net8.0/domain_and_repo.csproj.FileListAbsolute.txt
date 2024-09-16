@@ -12,3 +12,4 @@ E:\CapCut\WebApplication1\domain\obj\Debug\net8.0\refint\domain_and_repo.dll
 E:\CapCut\WebApplication1\domain\obj\Debug\net8.0\domain_and_repo.pdb
 E:\CapCut\WebApplication1\domain\obj\Debug\net8.0\domain_and_repo.genruntimeconfig.cache
 E:\CapCut\WebApplication1\domain\obj\Debug\net8.0\ref\domain_and_repo.dll
+E:\CapCut\WebApplication1\domain\obj\Debug\net8.0\domain_and_repo.sourcelink.json

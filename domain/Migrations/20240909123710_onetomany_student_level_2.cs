@@ -44,7 +44,7 @@ namespace domain_and_repo.Migrations
                 column: "Levelid",
                 principalTable: "levels",
                 principalColumn: "LevelId",
-                onDelete: ReferentialAction.Cascade);
+                onDelete: ReferentialAction.Restrict);
         }
 
         /// <inheritdoc />

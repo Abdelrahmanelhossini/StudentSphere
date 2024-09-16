@@ -265,3 +265,4 @@ E:\CapCut\WebApplication1\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.
 E:\CapCut\WebApplication1\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 E:\CapCut\WebApplication1\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 E:\CapCut\WebApplication1\WebApplication1\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\CapCut\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.sourcelink.json

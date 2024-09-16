@@ -9,6 +9,8 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using System.Data;
 using System.Linq;
+using domain_and_repo.models;
+using domain_and_repo;
 
 namespace WebApplication1.Controllers
 {
@@ -19,11 +21,16 @@ namespace WebApplication1.Controllers
         private readonly UserManager<IdentityUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly IConfiguration configuration;
-        public AuthController(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager, IConfiguration configuration)
+        private readonly Db_context _context;
+        public AuthController( UserManager<IdentityUser> userManager,
+            SignInManager<IdentityUser> signInManager,
+            IConfiguration configuration,
+            Db_context context)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             this.configuration = configuration;
+            _context = context;
         }
 
 
@@ -34,11 +41,22 @@ namespace WebApplication1.Controllers
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-            var user = new IdentityUser { UserName = model.Email, Email = model.Email };
+            var user = new IdentityUser {   UserName = model.Email, Email = model.Email };
             var result = await _userManager.CreateAsync(user, model.Password);
 
             if (result.Succeeded)
             {
+                var Student = new Student
+                {
+                    Name = model.Name,
+                    Email = model.Email,
+                     
+                    Levelid = model.Levelid 
+
+                };
+                _context.Students.Add(Student);
+                await _context.SaveChangesAsync();
+
 
                 return Ok("User registered and logged in successfully!");
             }
