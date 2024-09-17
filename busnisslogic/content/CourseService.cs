@@ -30,6 +30,10 @@ namespace busnisslogic.content
 
         public async Task AddStudentAsync(Course courses)
         {
+            if (string.IsNullOrEmpty(courses.CourseName))
+            {
+                throw new ArgumentNullException("course name cannot be empty ");
+            }
             await _unitOfWork.Courses.AddAsync(courses);
             await _unitOfWork.SaveAsync();
         }

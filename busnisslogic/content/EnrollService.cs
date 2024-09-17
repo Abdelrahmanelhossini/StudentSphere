@@ -30,6 +30,14 @@ namespace busnisslogic.content
 
         public async Task AddStudentAsync(Enroll enrolls)
         {
+            if (enrolls.degree < 0 )
+            {
+                throw new ArgumentException("degree cannot be negative.");
+            }
+            if(enrolls.degree > 100)
+            {
+                throw new ArgumentException("degree cannot be Greater than 100.");
+            }
             await _unitOfWork.Enrolls.AddAsync(enrolls);
             await _unitOfWork.SaveAsync();
         }

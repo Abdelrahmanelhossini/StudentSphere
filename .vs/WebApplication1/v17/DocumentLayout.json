@@ -3,6 +3,54 @@
   "WorkspaceRootPath": "E:\\CapCut\\WebApplication1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{59A068AB-C4AD-48CC-B03C-1AE39EFE0EB1}|domain\\domain_and_repo.csproj|e:\\capcut\\webapplication1\\domain\\models\\enroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59A068AB-C4AD-48CC-B03C-1AE39EFE0EB1}|domain\\domain_and_repo.csproj|solutionrelative:domain\\models\\enroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A068AB-C4AD-48CC-B03C-1AE39EFE0EB1}|domain\\domain_and_repo.csproj|e:\\capcut\\webapplication1\\domain\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59A068AB-C4AD-48CC-B03C-1AE39EFE0EB1}|domain\\domain_and_repo.csproj|solutionrelative:domain\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42A3B709-E81E-4E9D-BD33-E41D7DA88648}|WebApplication1\\WebApplication1.csproj|e:\\capcut\\webapplication1\\webapplication1\\controllers\\enrollcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A3B709-E81E-4E9D-BD33-E41D7DA88648}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\enrollcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E448DDAC-D1F0-4710-8059-C648FCBCAE19}|busnisslogic\\busnisslogic.csproj|e:\\capcut\\webapplication1\\busnisslogic\\content\\enrollservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E448DDAC-D1F0-4710-8059-C648FCBCAE19}|busnisslogic\\busnisslogic.csproj|solutionrelative:busnisslogic\\content\\enrollservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E448DDAC-D1F0-4710-8059-C648FCBCAE19}|busnisslogic\\busnisslogic.csproj|e:\\capcut\\webapplication1\\busnisslogic\\content\\levelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E448DDAC-D1F0-4710-8059-C648FCBCAE19}|busnisslogic\\busnisslogic.csproj|solutionrelative:busnisslogic\\content\\levelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E448DDAC-D1F0-4710-8059-C648FCBCAE19}|busnisslogic\\busnisslogic.csproj|e:\\capcut\\webapplication1\\busnisslogic\\content\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E448DDAC-D1F0-4710-8059-C648FCBCAE19}|busnisslogic\\busnisslogic.csproj|solutionrelative:busnisslogic\\content\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A068AB-C4AD-48CC-B03C-1AE39EFE0EB1}|domain\\domain_and_repo.csproj|e:\\capcut\\webapplication1\\domain\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59A068AB-C4AD-48CC-B03C-1AE39EFE0EB1}|domain\\domain_and_repo.csproj|solutionrelative:domain\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E448DDAC-D1F0-4710-8059-C648FCBCAE19}|busnisslogic\\busnisslogic.csproj|e:\\capcut\\webapplication1\\busnisslogic\\content\\studentservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E448DDAC-D1F0-4710-8059-C648FCBCAE19}|busnisslogic\\busnisslogic.csproj|solutionrelative:busnisslogic\\content\\studentservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E448DDAC-D1F0-4710-8059-C648FCBCAE19}|busnisslogic\\busnisslogic.csproj|e:\\capcut\\webapplication1\\busnisslogic\\interfaces\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E448DDAC-D1F0-4710-8059-C648FCBCAE19}|busnisslogic\\busnisslogic.csproj|solutionrelative:busnisslogic\\interfaces\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A068AB-C4AD-48CC-B03C-1AE39EFE0EB1}|domain\\domain_and_repo.csproj|e:\\capcut\\webapplication1\\domain\\repositorys\\repostory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59A068AB-C4AD-48CC-B03C-1AE39EFE0EB1}|domain\\domain_and_repo.csproj|solutionrelative:domain\\repositorys\\repostory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A068AB-C4AD-48CC-B03C-1AE39EFE0EB1}|domain\\domain_and_repo.csproj|e:\\capcut\\webapplication1\\domain\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59A068AB-C4AD-48CC-B03C-1AE39EFE0EB1}|domain\\domain_and_repo.csproj|solutionrelative:domain\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A068AB-C4AD-48CC-B03C-1AE39EFE0EB1}|domain\\domain_and_repo.csproj|e:\\capcut\\webapplication1\\domain\\db_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59A068AB-C4AD-48CC-B03C-1AE39EFE0EB1}|domain\\domain_and_repo.csproj|solutionrelative:domain\\db_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{42A3B709-E81E-4E9D-BD33-E41D7DA88648}|WebApplication1\\WebApplication1.csproj|e:\\capcut\\webapplication1\\webapplication1\\controllers\\search.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42A3B709-E81E-4E9D-BD33-E41D7DA88648}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\search.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -47,36 +95,12 @@
       "RelativeMoniker": "D:0:0:{59A068AB-C4AD-48CC-B03C-1AE39EFE0EB1}|domain\\domain_and_repo.csproj|solutionrelative:domain\\migrations\\db_contextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59A068AB-C4AD-48CC-B03C-1AE39EFE0EB1}|domain\\domain_and_repo.csproj|e:\\capcut\\webapplication1\\domain\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59A068AB-C4AD-48CC-B03C-1AE39EFE0EB1}|domain\\domain_and_repo.csproj|solutionrelative:domain\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59A068AB-C4AD-48CC-B03C-1AE39EFE0EB1}|domain\\domain_and_repo.csproj|e:\\capcut\\webapplication1\\domain\\db_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59A068AB-C4AD-48CC-B03C-1AE39EFE0EB1}|domain\\domain_and_repo.csproj|solutionrelative:domain\\db_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{59A068AB-C4AD-48CC-B03C-1AE39EFE0EB1}|domain\\domain_and_repo.csproj|e:\\capcut\\webapplication1\\domain\\models\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59A068AB-C4AD-48CC-B03C-1AE39EFE0EB1}|domain\\domain_and_repo.csproj|solutionrelative:domain\\models\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59A068AB-C4AD-48CC-B03C-1AE39EFE0EB1}|domain\\domain_and_repo.csproj|e:\\capcut\\webapplication1\\domain\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59A068AB-C4AD-48CC-B03C-1AE39EFE0EB1}|domain\\domain_and_repo.csproj|solutionrelative:domain\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{59A068AB-C4AD-48CC-B03C-1AE39EFE0EB1}|domain\\domain_and_repo.csproj|e:\\capcut\\webapplication1\\domain\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59A068AB-C4AD-48CC-B03C-1AE39EFE0EB1}|domain\\domain_and_repo.csproj|solutionrelative:domain\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E448DDAC-D1F0-4710-8059-C648FCBCAE19}|busnisslogic\\busnisslogic.csproj|e:\\capcut\\webapplication1\\busnisslogic\\content\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E448DDAC-D1F0-4710-8059-C648FCBCAE19}|busnisslogic\\busnisslogic.csproj|solutionrelative:busnisslogic\\content\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E448DDAC-D1F0-4710-8059-C648FCBCAE19}|busnisslogic\\busnisslogic.csproj|e:\\capcut\\webapplication1\\busnisslogic\\content\\enrollservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E448DDAC-D1F0-4710-8059-C648FCBCAE19}|busnisslogic\\busnisslogic.csproj|solutionrelative:busnisslogic\\content\\enrollservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E448DDAC-D1F0-4710-8059-C648FCBCAE19}|busnisslogic\\busnisslogic.csproj|e:\\capcut\\webapplication1\\busnisslogic\\content\\levelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E448DDAC-D1F0-4710-8059-C648FCBCAE19}|busnisslogic\\busnisslogic.csproj|solutionrelative:busnisslogic\\content\\levelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42A3B709-E81E-4E9D-BD33-E41D7DA88648}|WebApplication1\\WebApplication1.csproj|e:\\capcut\\webapplication1\\webapplication1\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -85,10 +109,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{42A3B709-E81E-4E9D-BD33-E41D7DA88648}|WebApplication1\\WebApplication1.csproj|e:\\capcut\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42A3B709-E81E-4E9D-BD33-E41D7DA88648}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59A068AB-C4AD-48CC-B03C-1AE39EFE0EB1}|domain\\domain_and_repo.csproj|e:\\capcut\\webapplication1\\domain\\repositorys\\repostory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59A068AB-C4AD-48CC-B03C-1AE39EFE0EB1}|domain\\domain_and_repo.csproj|solutionrelative:domain\\repositorys\\repostory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{59A068AB-C4AD-48CC-B03C-1AE39EFE0EB1}|domain\\domain_and_repo.csproj|e:\\capcut\\webapplication1\\domain\\repositorys\\irepostory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -103,16 +123,8 @@
       "RelativeMoniker": "D:0:0:{59A068AB-C4AD-48CC-B03C-1AE39EFE0EB1}|domain\\domain_and_repo.csproj|solutionrelative:domain\\domain_and_repo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59A068AB-C4AD-48CC-B03C-1AE39EFE0EB1}|domain\\domain_and_repo.csproj|e:\\capcut\\webapplication1\\domain\\models\\enroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59A068AB-C4AD-48CC-B03C-1AE39EFE0EB1}|domain\\domain_and_repo.csproj|solutionrelative:domain\\models\\enroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{42A3B709-E81E-4E9D-BD33-E41D7DA88648}|WebApplication1\\WebApplication1.csproj|e:\\capcut\\webapplication1\\webapplication1\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42A3B709-E81E-4E9D-BD33-E41D7DA88648}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42A3B709-E81E-4E9D-BD33-E41D7DA88648}|WebApplication1\\WebApplication1.csproj|e:\\capcut\\webapplication1\\webapplication1\\controllers\\enrollcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42A3B709-E81E-4E9D-BD33-E41D7DA88648}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\enrollcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42A3B709-E81E-4E9D-BD33-E41D7DA88648}|WebApplication1\\WebApplication1.csproj|e:\\capcut\\webapplication1\\webapplication1\\controllers\\levelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -127,16 +139,8 @@
       "RelativeMoniker": "D:0:0:{E448DDAC-D1F0-4710-8059-C648FCBCAE19}|busnisslogic\\busnisslogic.csproj|solutionrelative:busnisslogic\\interfaces\\ilevelservce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59A068AB-C4AD-48CC-B03C-1AE39EFE0EB1}|domain\\domain_and_repo.csproj|e:\\capcut\\webapplication1\\domain\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59A068AB-C4AD-48CC-B03C-1AE39EFE0EB1}|domain\\domain_and_repo.csproj|solutionrelative:domain\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E448DDAC-D1F0-4710-8059-C648FCBCAE19}|busnisslogic\\busnisslogic.csproj|e:\\capcut\\webapplication1\\busnisslogic\\interfaces\\ienrollservece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E448DDAC-D1F0-4710-8059-C648FCBCAE19}|busnisslogic\\busnisslogic.csproj|solutionrelative:busnisslogic\\interfaces\\ienrollservece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E448DDAC-D1F0-4710-8059-C648FCBCAE19}|busnisslogic\\busnisslogic.csproj|e:\\capcut\\webapplication1\\busnisslogic\\interfaces\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E448DDAC-D1F0-4710-8059-C648FCBCAE19}|busnisslogic\\busnisslogic.csproj|solutionrelative:busnisslogic\\interfaces\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42A3B709-E81E-4E9D-BD33-E41D7DA88648}|WebApplication1\\WebApplication1.csproj|e:\\capcut\\webapplication1\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -185,75 +189,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StudentSearchService.cs",
-              "DocumentMoniker": "E:\\CapCut\\WebApplication1\\busnisslogic\\content\\StudentSearchService.cs",
-              "RelativeDocumentMoniker": "busnisslogic\\content\\StudentSearchService.cs",
-              "ToolTip": "E:\\CapCut\\WebApplication1\\busnisslogic\\content\\StudentSearchService.cs",
-              "RelativeToolTip": "busnisslogic\\content\\StudentSearchService.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAkwD4AAAAlAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "IUnitofWork.cs",
+              "DocumentMoniker": "E:\\CapCut\\WebApplication1\\domain\\UnitofWork\\IUnitofWork.cs",
+              "RelativeDocumentMoniker": "domain\\UnitofWork\\IUnitofWork.cs",
+              "ToolTip": "E:\\CapCut\\WebApplication1\\domain\\UnitofWork\\IUnitofWork.cs",
+              "RelativeToolTip": "domain\\UnitofWork\\IUnitofWork.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T10:05:23.858Z",
+              "WhenOpened": "2024-09-04T13:56:26.723Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentSearchResult.cs",
-              "DocumentMoniker": "E:\\CapCut\\WebApplication1\\domain\\DTO\\StudentSearchResult.cs",
-              "RelativeDocumentMoniker": "domain\\DTO\\StudentSearchResult.cs",
-              "ToolTip": "E:\\CapCut\\WebApplication1\\domain\\DTO\\StudentSearchResult.cs",
-              "RelativeToolTip": "domain\\DTO\\StudentSearchResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "Repostory.cs",
+              "DocumentMoniker": "E:\\CapCut\\WebApplication1\\domain\\Repositorys\\Repostory.cs",
+              "RelativeDocumentMoniker": "domain\\Repositorys\\Repostory.cs",
+              "ToolTip": "E:\\CapCut\\WebApplication1\\domain\\Repositorys\\Repostory.cs",
+              "RelativeToolTip": "domain\\Repositorys\\Repostory.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAIwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T10:07:29.232Z",
+              "WhenOpened": "2024-09-04T13:50:50.376Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IStudentService.cs",
-              "DocumentMoniker": "E:\\CapCut\\WebApplication1\\busnisslogic\\interfaces\\IStudentService.cs",
-              "RelativeDocumentMoniker": "busnisslogic\\interfaces\\IStudentService.cs",
-              "ToolTip": "E:\\CapCut\\WebApplication1\\busnisslogic\\interfaces\\IStudentService.cs",
-              "RelativeToolTip": "busnisslogic\\interfaces\\IStudentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Title": "LevelService.cs",
+              "DocumentMoniker": "E:\\CapCut\\WebApplication1\\busnisslogic\\content\\LevelService.cs",
+              "RelativeDocumentMoniker": "busnisslogic\\content\\LevelService.cs",
+              "ToolTip": "E:\\CapCut\\WebApplication1\\busnisslogic\\content\\LevelService.cs",
+              "RelativeToolTip": "busnisslogic\\content\\LevelService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAACYAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T14:02:22.291Z",
+              "WhenOpened": "2024-09-09T08:09:35.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ICourseService.cs",
+              "DocumentMoniker": "E:\\CapCut\\WebApplication1\\busnisslogic\\interfaces\\ICourseService.cs",
+              "RelativeDocumentMoniker": "busnisslogic\\interfaces\\ICourseService.cs",
+              "ToolTip": "E:\\CapCut\\WebApplication1\\busnisslogic\\interfaces\\ICourseService.cs",
+              "RelativeToolTip": "busnisslogic\\interfaces\\ICourseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T07:14:32.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CourseService.cs",
+              "DocumentMoniker": "E:\\CapCut\\WebApplication1\\busnisslogic\\content\\CourseService.cs",
+              "RelativeDocumentMoniker": "busnisslogic\\content\\CourseService.cs",
+              "ToolTip": "E:\\CapCut\\WebApplication1\\busnisslogic\\content\\CourseService.cs",
+              "RelativeToolTip": "busnisslogic\\content\\CourseService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAUwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T07:52:23.589Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "E:\\CapCut\\WebApplication1\\WebApplication1\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\AuthController.cs",
-              "ToolTip": "E:\\CapCut\\WebApplication1\\WebApplication1\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAmwEsAAAAbAAAAAAAAAA==",
+              "Title": "EnrollService.cs",
+              "DocumentMoniker": "E:\\CapCut\\WebApplication1\\busnisslogic\\content\\EnrollService.cs",
+              "RelativeDocumentMoniker": "busnisslogic\\content\\EnrollService.cs",
+              "ToolTip": "E:\\CapCut\\WebApplication1\\busnisslogic\\content\\EnrollService.cs",
+              "RelativeToolTip": "busnisslogic\\content\\EnrollService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAACcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T08:18:23.629Z",
+              "WhenOpened": "2024-09-09T07:59:09.65Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Course.cs",
-              "DocumentMoniker": "E:\\CapCut\\WebApplication1\\domain\\models\\Course.cs",
-              "RelativeDocumentMoniker": "domain\\models\\Course.cs",
-              "ToolTip": "E:\\CapCut\\WebApplication1\\domain\\models\\Course.cs",
-              "RelativeToolTip": "domain\\models\\Course.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAIwBMAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "EnrollController.cs",
+              "DocumentMoniker": "E:\\CapCut\\WebApplication1\\WebApplication1\\Controllers\\EnrollController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\EnrollController.cs",
+              "ToolTip": "E:\\CapCut\\WebApplication1\\WebApplication1\\Controllers\\EnrollController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\EnrollController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T11:05:20.17Z"
+              "WhenOpened": "2024-09-09T08:25:12.169Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
+              "Title": "Enroll.cs",
+              "DocumentMoniker": "E:\\CapCut\\WebApplication1\\domain\\models\\Enroll.cs",
+              "RelativeDocumentMoniker": "domain\\models\\Enroll.cs",
+              "ToolTip": "E:\\CapCut\\WebApplication1\\domain\\models\\Enroll.cs",
+              "RelativeToolTip": "domain\\models\\Enroll.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwCAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T11:04:14.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Student.cs",
               "DocumentMoniker": "E:\\CapCut\\WebApplication1\\domain\\models\\Student.cs",
               "RelativeDocumentMoniker": "domain\\models\\Student.cs",
@@ -261,11 +305,51 @@
               "RelativeToolTip": "domain\\models\\Student.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAAwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T11:04:02.767Z"
+              "WhenOpened": "2024-09-02T11:04:02.767Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
+              "Title": "Db_context.cs",
+              "DocumentMoniker": "E:\\CapCut\\WebApplication1\\domain\\Db_context.cs",
+              "RelativeDocumentMoniker": "domain\\Db_context.cs",
+              "ToolTip": "E:\\CapCut\\WebApplication1\\domain\\Db_context.cs",
+              "RelativeToolTip": "domain\\Db_context.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T11:10:42.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Course.cs",
+              "DocumentMoniker": "E:\\CapCut\\WebApplication1\\domain\\models\\Course.cs",
+              "RelativeDocumentMoniker": "domain\\models\\Course.cs",
+              "ToolTip": "E:\\CapCut\\WebApplication1\\domain\\models\\Course.cs",
+              "RelativeToolTip": "domain\\models\\Course.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAIwBMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T11:05:20.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentService1.cs",
+              "DocumentMoniker": "E:\\CapCut\\WebApplication1\\busnisslogic\\content\\StudentService1.cs",
+              "RelativeDocumentMoniker": "busnisslogic\\content\\StudentService1.cs",
+              "ToolTip": "E:\\CapCut\\WebApplication1\\busnisslogic\\content\\StudentService1.cs",
+              "RelativeToolTip": "busnisslogic\\content\\StudentService1.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T14:24:12.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Search.cs",
               "DocumentMoniker": "E:\\CapCut\\WebApplication1\\WebApplication1\\Controllers\\Search.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\Search.cs",
@@ -278,7 +362,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\CapCut\\WebApplication1\\WebApplication1\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\CapCut\\WebApplication1\\WebApplication1\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAmwEsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T08:18:23.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "E:\\CapCut\\WebApplication1\\busnisslogic\\interfaces\\IStudentService.cs",
+              "RelativeDocumentMoniker": "busnisslogic\\interfaces\\IStudentService.cs",
+              "ToolTip": "E:\\CapCut\\WebApplication1\\busnisslogic\\interfaces\\IStudentService.cs",
+              "RelativeToolTip": "busnisslogic\\interfaces\\IStudentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T14:02:22.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StudentSearchResult.cs",
+              "DocumentMoniker": "E:\\CapCut\\WebApplication1\\domain\\DTO\\StudentSearchResult.cs",
+              "RelativeDocumentMoniker": "domain\\DTO\\StudentSearchResult.cs",
+              "ToolTip": "E:\\CapCut\\WebApplication1\\domain\\DTO\\StudentSearchResult.cs",
+              "RelativeToolTip": "domain\\DTO\\StudentSearchResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T10:07:29.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StudentSearchService.cs",
+              "DocumentMoniker": "E:\\CapCut\\WebApplication1\\busnisslogic\\content\\StudentSearchService.cs",
+              "RelativeDocumentMoniker": "busnisslogic\\content\\StudentSearchService.cs",
+              "ToolTip": "E:\\CapCut\\WebApplication1\\busnisslogic\\content\\StudentSearchService.cs",
+              "RelativeToolTip": "busnisslogic\\content\\StudentSearchService.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwD4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T10:05:23.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "20240916204348_deletepassword_from_student_table.cs",
               "DocumentMoniker": "E:\\CapCut\\WebApplication1\\domain\\Migrations\\20240916204348_deletepassword_from_student_table.cs",
               "RelativeDocumentMoniker": "domain\\Migrations\\20240916204348_deletepassword_from_student_table.cs",
@@ -290,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 17,
               "Title": "Register.cs",
               "DocumentMoniker": "E:\\CapCut\\WebApplication1\\domain\\DTO\\Register.cs",
               "RelativeDocumentMoniker": "domain\\DTO\\Register.cs",
@@ -298,12 +430,11 @@
               "RelativeToolTip": "domain\\DTO\\Register.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAAwAsAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T08:19:52.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-08T08:19:52.576Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 18,
               "Title": "login.cs",
               "DocumentMoniker": "E:\\CapCut\\WebApplication1\\domain\\DTO\\login.cs",
               "RelativeDocumentMoniker": "domain\\DTO\\login.cs",
@@ -311,12 +442,11 @@
               "RelativeToolTip": "domain\\DTO\\login.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T08:20:07.325Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-08T08:20:07.325Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 22,
               "Title": "Db_contextModelSnapshot.cs",
               "DocumentMoniker": "E:\\CapCut\\WebApplication1\\domain\\Migrations\\Db_contextModelSnapshot.cs",
               "RelativeDocumentMoniker": "domain\\Migrations\\Db_contextModelSnapshot.cs",
@@ -328,7 +458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "20240916204522_deletepassword_from_student_table.cs",
               "DocumentMoniker": "E:\\CapCut\\WebApplication1\\domain\\Migrations\\20240916204522_deletepassword_from_student_table.cs",
               "RelativeDocumentMoniker": "domain\\Migrations\\20240916204522_deletepassword_from_student_table.cs",
@@ -340,7 +470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 20,
               "Title": "20240909131916_onetomany_student_level_3.cs",
               "DocumentMoniker": "E:\\CapCut\\WebApplication1\\domain\\Migrations\\20240909131916_onetomany_student_level_3.cs",
               "RelativeDocumentMoniker": "domain\\Migrations\\20240909131916_onetomany_student_level_3.cs",
@@ -352,7 +482,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 19,
               "Title": "20240909123710_onetomany_student_level_2.cs",
               "DocumentMoniker": "E:\\CapCut\\WebApplication1\\domain\\Migrations\\20240909123710_onetomany_student_level_2.cs",
               "RelativeDocumentMoniker": "domain\\Migrations\\20240909123710_onetomany_student_level_2.cs",
@@ -364,7 +494,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 24,
               "Title": "Payment.cs",
               "DocumentMoniker": "E:\\CapCut\\WebApplication1\\domain\\models\\Payment.cs",
               "RelativeDocumentMoniker": "domain\\models\\Payment.cs",
@@ -376,7 +506,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 23,
               "Title": "Level.cs",
               "DocumentMoniker": "E:\\CapCut\\WebApplication1\\domain\\models\\Level.cs",
               "RelativeDocumentMoniker": "domain\\models\\Level.cs",
@@ -388,55 +518,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Db_context.cs",
-              "DocumentMoniker": "E:\\CapCut\\WebApplication1\\domain\\Db_context.cs",
-              "RelativeDocumentMoniker": "domain\\Db_context.cs",
-              "ToolTip": "E:\\CapCut\\WebApplication1\\domain\\Db_context.cs",
-              "RelativeToolTip": "domain\\Db_context.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T11:10:42.908Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CourseService.cs",
-              "DocumentMoniker": "E:\\CapCut\\WebApplication1\\busnisslogic\\content\\CourseService.cs",
-              "RelativeDocumentMoniker": "busnisslogic\\content\\CourseService.cs",
-              "ToolTip": "E:\\CapCut\\WebApplication1\\busnisslogic\\content\\CourseService.cs",
-              "RelativeToolTip": "busnisslogic\\content\\CourseService.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T07:52:23.589Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "EnrollService.cs",
-              "DocumentMoniker": "E:\\CapCut\\WebApplication1\\busnisslogic\\content\\EnrollService.cs",
-              "RelativeDocumentMoniker": "busnisslogic\\content\\EnrollService.cs",
-              "ToolTip": "E:\\CapCut\\WebApplication1\\busnisslogic\\content\\EnrollService.cs",
-              "RelativeToolTip": "busnisslogic\\content\\EnrollService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T07:59:09.65Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "LevelService.cs",
-              "DocumentMoniker": "E:\\CapCut\\WebApplication1\\busnisslogic\\content\\LevelService.cs",
-              "RelativeDocumentMoniker": "busnisslogic\\content\\LevelService.cs",
-              "ToolTip": "E:\\CapCut\\WebApplication1\\busnisslogic\\content\\LevelService.cs",
-              "RelativeToolTip": "busnisslogic\\content\\LevelService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T08:09:35.901Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "CoursesController.cs",
               "DocumentMoniker": "E:\\CapCut\\WebApplication1\\WebApplication1\\Controllers\\CoursesController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\CoursesController.cs",
@@ -448,7 +530,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\CapCut\\WebApplication1\\WebApplication1\\Program.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
@@ -460,19 +542,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Repostory.cs",
-              "DocumentMoniker": "E:\\CapCut\\WebApplication1\\domain\\Repositorys\\Repostory.cs",
-              "RelativeDocumentMoniker": "domain\\Repositorys\\Repostory.cs",
-              "ToolTip": "E:\\CapCut\\WebApplication1\\domain\\Repositorys\\Repostory.cs",
-              "RelativeToolTip": "domain\\Repositorys\\Repostory.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T13:50:50.376Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "IRepostory.cs",
               "DocumentMoniker": "E:\\CapCut\\WebApplication1\\domain\\Repositorys\\IRepostory.cs",
               "RelativeDocumentMoniker": "domain\\Repositorys\\IRepostory.cs",
@@ -484,7 +554,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "busnisslogic.csproj",
               "DocumentMoniker": "E:\\CapCut\\WebApplication1\\busnisslogic\\busnisslogic.csproj",
               "RelativeDocumentMoniker": "busnisslogic\\busnisslogic.csproj",
@@ -496,7 +566,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "domain_and_repo.csproj",
               "DocumentMoniker": "E:\\CapCut\\WebApplication1\\domain\\domain_and_repo.csproj",
               "RelativeDocumentMoniker": "domain\\domain_and_repo.csproj",
@@ -508,19 +578,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Enroll.cs",
-              "DocumentMoniker": "E:\\CapCut\\WebApplication1\\domain\\models\\Enroll.cs",
-              "RelativeDocumentMoniker": "domain\\models\\Enroll.cs",
-              "ToolTip": "E:\\CapCut\\WebApplication1\\domain\\models\\Enroll.cs",
-              "RelativeToolTip": "domain\\models\\Enroll.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAABYAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T11:04:14.591Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "StudentsController.cs",
               "DocumentMoniker": "E:\\CapCut\\WebApplication1\\WebApplication1\\Controllers\\StudentsController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\StudentsController.cs",
@@ -532,19 +590,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "EnrollController.cs",
-              "DocumentMoniker": "E:\\CapCut\\WebApplication1\\WebApplication1\\Controllers\\EnrollController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\EnrollController.cs",
-              "ToolTip": "E:\\CapCut\\WebApplication1\\WebApplication1\\Controllers\\EnrollController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\EnrollController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T08:25:12.169Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "levelController.cs",
               "DocumentMoniker": "E:\\CapCut\\WebApplication1\\WebApplication1\\Controllers\\levelController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\levelController.cs",
@@ -556,7 +602,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "WebApplication1.csproj",
               "DocumentMoniker": "E:\\CapCut\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
               "RelativeDocumentMoniker": "WebApplication1\\WebApplication1.csproj",
@@ -568,7 +614,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "ILevelServce.cs",
               "DocumentMoniker": "E:\\CapCut\\WebApplication1\\busnisslogic\\interfaces\\ILevelServce.cs",
               "RelativeDocumentMoniker": "busnisslogic\\interfaces\\ILevelServce.cs",
@@ -580,19 +626,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "IUnitofWork.cs",
-              "DocumentMoniker": "E:\\CapCut\\WebApplication1\\domain\\UnitofWork\\IUnitofWork.cs",
-              "RelativeDocumentMoniker": "domain\\UnitofWork\\IUnitofWork.cs",
-              "ToolTip": "E:\\CapCut\\WebApplication1\\domain\\UnitofWork\\IUnitofWork.cs",
-              "RelativeToolTip": "domain\\UnitofWork\\IUnitofWork.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAA7wCMAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T13:56:26.723Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "20240909115739_onetomany_student_level.cs",
               "DocumentMoniker": "E:\\CapCut\\WebApplication1\\domain\\Migrations\\20240909115739_onetomany_student_level.cs",
               "RelativeDocumentMoniker": "domain\\Migrations\\20240909115739_onetomany_student_level.cs",
@@ -604,7 +638,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "IEnrollServece.cs",
               "DocumentMoniker": "E:\\CapCut\\WebApplication1\\busnisslogic\\interfaces\\IEnrollServece.cs",
               "RelativeDocumentMoniker": "busnisslogic\\interfaces\\IEnrollServece.cs",
@@ -616,19 +650,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "ICourseService.cs",
-              "DocumentMoniker": "E:\\CapCut\\WebApplication1\\busnisslogic\\interfaces\\ICourseService.cs",
-              "RelativeDocumentMoniker": "busnisslogic\\interfaces\\ICourseService.cs",
-              "ToolTip": "E:\\CapCut\\WebApplication1\\busnisslogic\\interfaces\\ICourseService.cs",
-              "RelativeToolTip": "busnisslogic\\interfaces\\ICourseService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T07:14:32.275Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\CapCut\\WebApplication1\\WebApplication1\\appsettings.json",
               "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
@@ -640,7 +662,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "launchSettings.json",
               "DocumentMoniker": "E:\\CapCut\\WebApplication1\\WebApplication1\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "WebApplication1\\Properties\\launchSettings.json",
@@ -652,7 +674,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "WebApplication1.http",
               "DocumentMoniker": "E:\\CapCut\\WebApplication1\\WebApplication1\\WebApplication1.http",
               "RelativeDocumentMoniker": "WebApplication1\\WebApplication1.http",
@@ -664,7 +686,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "20240908083338_DTO.cs",
               "DocumentMoniker": "E:\\CapCut\\WebApplication1\\domain\\Migrations\\20240908083338_DTO.cs",
               "RelativeDocumentMoniker": "domain\\Migrations\\20240908083338_DTO.cs",
@@ -676,7 +698,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "20240908083746_DTO1.cs",
               "DocumentMoniker": "E:\\CapCut\\WebApplication1\\domain\\Migrations\\20240908083746_DTO1.cs",
               "RelativeDocumentMoniker": "domain\\Migrations\\20240908083746_DTO1.cs",
@@ -688,7 +710,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "20240908075227_AddIdentityTables.cs",
               "DocumentMoniker": "E:\\CapCut\\WebApplication1\\domain\\Migrations\\20240908075227_AddIdentityTables.cs",
               "RelativeDocumentMoniker": "domain\\Migrations\\20240908075227_AddIdentityTables.cs",
@@ -700,7 +722,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\20114\\AppData\\Local\\Temp\\.vsdbgsrc\\48caf1ffa253772c22e6e3689465633ed7a7c4c4d34c6830bab626e995d9b4be\\Program.cs",
               "ToolTip": "C:\\Users\\20114\\AppData\\Local\\Temp\\.vsdbgsrc\\48caf1ffa253772c22e6e3689465633ed7a7c4c4d34c6830bab626e995d9b4be\\Program.cs",
@@ -710,7 +732,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "20240902112812_InitialCreate.cs",
               "DocumentMoniker": "E:\\CapCut\\WebApplication1\\domain\\Migrations\\20240902112812_InitialCreate.cs",
               "RelativeDocumentMoniker": "domain\\Migrations\\20240902112812_InitialCreate.cs",

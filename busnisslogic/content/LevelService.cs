@@ -30,6 +30,14 @@ namespace busnisslogic.content
 
         public async Task AddStudentAsync(Level level)
         {
+            if (string.IsNullOrEmpty(level.LevelName))
+            {
+                throw new ArgumentNullException("level name cannot be empty ");
+            }
+            if(level.Base<0 || level.Addition<0 || level.Deduction<0)
+            {
+                throw new ArgumentException(" Fees cannot be negative.");
+            }
             await _unitOfWork.Levels.AddAsync(level);
             await _unitOfWork.SaveAsync();
         }
