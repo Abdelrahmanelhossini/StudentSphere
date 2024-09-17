@@ -1,4 +1,5 @@
 ﻿using busnisslogic.interfaces;
+using domain_and_repo.models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -26,6 +27,15 @@ namespace WebApplication1.Controllers
         
             var result = _studentSearchService.SearchStudents(studentName,level,minDegrees,maxDegrees,minRank,maxRank);
             return Ok(result);
+        }
+
+        [HttpGet("search-with-limit")]
+        public IActionResult searchlimit(string? name, int? level, int limit)
+        {
+            var result = _studentSearchService.SearchStudents(name, level);
+            var studentlimit = result.Take(limit);
+            return Ok(studentlimit);
+
         }
     }
 }

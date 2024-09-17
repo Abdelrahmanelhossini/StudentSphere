@@ -23,7 +23,7 @@ namespace busnisslogic.content
             _context = context;
         }
         public List<StudentSearchResult> SearchStudents(
-            string? studentName,
+            string? studentName=null,
             int? level = null,
             int? minDegrees = null,
             int? maxDegrees = null,
