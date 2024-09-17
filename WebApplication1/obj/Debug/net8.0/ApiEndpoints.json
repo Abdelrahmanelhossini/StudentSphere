@@ -289,6 +289,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebApplication1.Controllers.PaymentController",
+    "Method": "ProcessPayment",
+    "RelativePath": "api/Payment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paymentrequest",
+        "Type": "domain_and_repo.DTO.Paymentrequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebApplication1.Controllers.Search",
     "Method": "Searchh",
     "RelativePath": "api/Search/search",

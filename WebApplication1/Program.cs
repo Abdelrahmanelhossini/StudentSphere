@@ -43,6 +43,7 @@ builder.Services.AddScoped<ICourseService,CourseService>();
 builder.Services.AddScoped<IEnrollServece, EnrollService>();
 builder.Services.AddScoped<ILevelServce,LevelService>();
 builder.Services.AddScoped<IStudentSearchService, StudentSearchService>();
+builder.Services.AddScoped<IPaymentProcessor,PaymentProcessor>() ;
 //builder.Services.AddScoped<IStudentServices, StudentService>();
 
 builder.Services.AddControllers();

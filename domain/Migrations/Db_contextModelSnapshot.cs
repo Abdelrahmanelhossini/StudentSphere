@@ -239,7 +239,7 @@ namespace domain_and_repo.Migrations
 
                     b.HasKey("CourseId");
 
-                    b.ToTable("courses");
+                    b.ToTable("courses", (string)null);
                 });
 
             modelBuilder.Entity("domain_and_repo.models.Enroll", b =>
@@ -265,7 +265,7 @@ namespace domain_and_repo.Migrations
 
                     b.HasIndex("StudentId");
 
-                    b.ToTable("enroll");
+                    b.ToTable("enroll", (string)null);
                 });
 
             modelBuilder.Entity("domain_and_repo.models.Level", b =>
@@ -292,7 +292,7 @@ namespace domain_and_repo.Migrations
 
                     b.HasKey("LevelId");
 
-                    b.ToTable("levels");
+                    b.ToTable("levels", (string)null);
                 });
 
             modelBuilder.Entity("domain_and_repo.models.Payment", b =>
@@ -324,7 +324,7 @@ namespace domain_and_repo.Migrations
 
                     b.HasIndex("StudentId");
 
-                    b.ToTable("payments");
+                    b.ToTable("payments", (string)null);
                 });
 
             modelBuilder.Entity("domain_and_repo.models.Student", b =>
@@ -358,7 +358,7 @@ namespace domain_and_repo.Migrations
 
                     b.HasIndex("Levelid");
 
-                    b.ToTable("Students");
+                    b.ToTable("Students", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("domain_and_repo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57807801c8ac0d4ac0ce02fd8802beaf44bcfd45")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b07ff179466aca7869d17b5e7abe0eeb531cf3e")]
 [assembly: System.Reflection.AssemblyProductAttribute("domain_and_repo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("domain_and_repo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
