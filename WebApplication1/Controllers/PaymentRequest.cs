@@ -1,5 +1,6 @@
 ﻿using busnisslogic.interfaces;
 using domain_and_repo.DTO;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebApplication1.Controllers
@@ -7,7 +8,8 @@ namespace WebApplication1.Controllers
     
         [ApiController]
         [Route("api/[controller]")]
-        public class PaymentController : ControllerBase
+        [Authorize]
+    public class PaymentController : ControllerBase
         {
             private readonly IPaymentProcessor _paymentProcessor;
 

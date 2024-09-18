@@ -18,8 +18,9 @@ namespace domain_and_repo.models
         [Required]
         [ForeignKey(nameof(level))]
         public int Levelid { get; set; }
+        
         [JsonIgnore]
-        public Level level { get; set; }
+        public Level? level { get; set; }
         [Required]
         [StringLength(100)]
         public string Name { get; set; }

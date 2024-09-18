@@ -38,7 +38,7 @@ namespace busnisslogic.content
 
         public async Task<Student> GetStudentByIdAsync(int id)
         {
-            var studentId=_unitOfWork.Students.GetByIdAsync(id);
+            var studentId=await _unitOfWork.Students.GetByIdAsync(id);
             if (studentId == null)
             {
                 throw new Exception($"Student with ID {studentId} not found ");
@@ -56,7 +56,7 @@ namespace busnisslogic.content
             if (string.IsNullOrEmpty(student.Email) || !IsValidEmail(student.Email)) {
                 throw new ArgumentException("Invalid email format");
             }
-            var level = _unitOfWork.Levels.GetByIdAsync(student.Levelid);
+            var level = await _unitOfWork.Levels.GetByIdAsync(student.Levelid);
             if (level == null) 
             {
                 throw new ArgumentException("$\"Level with ID {student.Levelid} does not exist.");

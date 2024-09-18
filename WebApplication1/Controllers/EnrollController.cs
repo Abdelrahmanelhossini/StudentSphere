@@ -7,7 +7,7 @@ namespace WebApplication1.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-   // [Authorize]
+    [Authorize]
     public class EnrollController : Controller
     {
         private readonly IEnrollServece _enrollSevice;

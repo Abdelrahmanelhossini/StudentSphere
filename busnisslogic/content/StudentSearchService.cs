@@ -70,11 +70,20 @@ namespace busnisslogic.content
                         select new StudentSearchResult
                         {
                             StudentName = g.FirstOrDefault().Student.Name,
-                            CourseGrades = g.Select(r => new
+                            CourseGrades = g.Select(r =>
                             {
-                                CourceName=r.Course.CourseName,
-                                Degree = r.degree.HasValue ? (int)r.degree.Value : 0
-                            }).ToDictionary(x => x.CourceName, x => x.Degree),
+                                if (r.degree.HasValue)
+                                {
+                                    return new CourseGrade
+                                    {
+                                        CourseName = r.Course.CourseName,
+                                        Degree = r.degree.HasValue ? (int)r.degree.Value : 0
+                                    };
+                                  }
+                                return null;
+                            })
+                             
+                            .ToList(),
                             TotalDegrees = g.Sum(x => x.degree.HasValue ? x.degree.Value : 0)
                         };
 
